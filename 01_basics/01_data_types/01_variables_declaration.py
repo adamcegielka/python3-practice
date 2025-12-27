@@ -1,0 +1,24 @@
+# Variables Declaration in Python
+# In Python, variables are created when you assign a value to them.
+
+# Example of declaring variables
+age = 25                 # Integer
+name = "Adam"            # String
+height = 5.7             # Float
+is_student = True        # Boolean
+
+print("Name:", name)
+print("Age:", age)
+print("Height:", height)
+print("Is Student:", is_student)
+
+print(age + 2)
+print(name + " Smith")
+print(name + " is " + str(age) + " years old.")
+
+number1 = 10
+number2 = 20
+sum_result = number1 + number2
+print("Sum:", sum_result)
+
+# Run this code in Python: `Ctrl + Fn + F5`
