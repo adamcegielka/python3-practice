@@ -22,3 +22,9 @@ sum_result = number1 + number2
 print("Sum:", sum_result)
 
 # Run this code in Python: `Ctrl + Fn + F5`
+
+"""
+comment:
+This code snippet demonstrates how to declare and manipulate variables in Python. 
+It creates variables to store details
+"""
