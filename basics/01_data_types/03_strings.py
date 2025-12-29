@@ -45,4 +45,8 @@ print(multiline_string)
 # This is a multiline string.
 #     It has tabs.
 
+# Print Without a New Line
+print("Hello, ", end="")
+print("World!")  # Output: Hello, World!
+
 # Run this code in Python: `Ctrl + Fn + F5`
