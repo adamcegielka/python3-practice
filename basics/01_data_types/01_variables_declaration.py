@@ -28,3 +28,9 @@ comment:
 This code snippet demonstrates how to declare and manipulate variables in Python. 
 It creates variables to store details
 """
+
+# Specify the data type of a variable
+weight: float = 70.5  # Float type
+is_employed: bool = False  # Boolean type
+print("Weight:", weight)
+print("Is Employed:", is_employed)
