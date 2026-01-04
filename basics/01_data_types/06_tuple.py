@@ -50,4 +50,9 @@ print(f"Tuple length: {len(repeated)}")  # 9
 people = tuple(("Alice", "Bob", "Charlie", "David", "Eve"))
 print(f"People: {people}") # People: ('Alice', 'Bob', 'Charlie', 'David', 'Eve')
 print(type(people))  # <class 'tuple'>
-print(f"Tuple length: {len(people)}")  # 29
+print(f"Tuple length: {len(people)}")  # 5
+
+names1 = {"Anna", "Ben"}
+names2 = {"Cathy", "David"}
+print(names1 | names2)  # {'Anna', 'Cathy', 'David', 'Ben'}
+print(names1.union(names2))  # {'Anna', 'Cathy', 'David', 'Ben'}
