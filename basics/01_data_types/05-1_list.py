@@ -79,7 +79,8 @@ print("Print sorted list", names)
 names.sort(reverse=True)
 print("Print reverse sorted list", names)   
 
-names[0] = "Aaron"  # Change first element
+# Change first element (Sophia to Aaron)
+names[0] = "Aaron"
 print("Print list after changing first element", names)
 
 # Clear the list
