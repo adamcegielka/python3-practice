@@ -52,6 +52,7 @@ print(f"People: {people}") # People: ('Alice', 'Bob', 'Charlie', 'David', 'Eve')
 print(type(people))  # <class 'tuple'>
 print(f"Tuple length: {len(people)}")  # 5
 
+# Set
 names1 = {"Anna", "Ben"}
 names2 = {"Cathy", "David"}
 print(names1 | names2)  # {'Anna', 'Cathy', 'David', 'Ben'}
