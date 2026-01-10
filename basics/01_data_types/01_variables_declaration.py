@@ -34,3 +34,21 @@ weight: float = 70.5  # Float type
 is_employed: bool = False  # Boolean type
 print("Weight:", weight)
 print("Is Employed:", is_employed)
+
+x = str(3)
+print(x) # x will be '3'
+print(type(x)) # x is of type str
+
+y = int(3)
+print(y) # y will be 3
+print(type(y)) # y is of type int
+
+z = float(3)
+print(z) # z will be 3.0
+print(type(z)) # z is of type float
+
+# Ten zapis nie tworzy typu, tylko opisuje, jakiego typu powinna być zmienna.
+weight: float = 70.5
+
+# Tworzy zmienną typu float, tworzy floata w czasie działania programu.
+z = float(3)
